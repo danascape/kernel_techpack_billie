@@ -1,0 +1,10 @@
+menu "Oneplus N10 platform"
+	depends on ARCH_LAGOON
+
+config MACH_ONEPLUS_BILLIE
+	bool "Oneplus N10"
+	depends on ARCH_LAGOON
+	help
+	  Support for Oneplus N10
+
+endmenu
