@@ -21,6 +21,8 @@ ifneq ($(filter ebba%, $(OEM_TARGET_PRODUCT)),)
 obj-y += wt_sys/
 endif
 
+obj-y += net/
+
 else
 ccflags-y := -Wno-unused-function
 obj-y := stub.o

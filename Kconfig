@@ -23,5 +23,6 @@ source "techpack/billie/vl53L1/Kconfig"
 source "techpack/billie/op_freezer/Kconfig"
 source "techpack/billie/hung_task_enhance/Kconfig"
 source "techpack/billie/wt_sys/Kconfig"
+source "techpack/billie/net/Kconfig"
 
 endmenu
