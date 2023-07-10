@@ -1,7 +1,7 @@
-source "drivers/oneplus/input/touchscreen/Focal/Kconfig"
-source "drivers/oneplus/input/touchscreen/util_interface/Kconfig"
-source "drivers/oneplus/input/touchscreen/samsung/Kconfig"
-source "drivers/oneplus/input/touchscreen/Goodix/Kconfig"
+source "techpack/billie/input/touchscreen/Focal/Kconfig"
+source "techpack/billie/input/touchscreen/util_interface/Kconfig"
+source "techpack/billie/input/touchscreen/samsung/Kconfig"
+source "techpack/billie/input/touchscreen/Goodix/Kconfig"
 
 config TOUCHPANEL_ONEPLUS
 	default n

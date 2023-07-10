@@ -1,7 +1,7 @@
 # oem device driver for charge
 #
-source "drivers/oneplus/power/supply/qcom/Kconfig"
-source "drivers/oneplus/power/supply/wlchg/Kconfig"
+source "techpack/billie/power/supply/qcom/Kconfig"
+source "techpack/billie/power/supply/wlchg/Kconfig"
 
 config OP_POWER_SUPPLY
 	default y

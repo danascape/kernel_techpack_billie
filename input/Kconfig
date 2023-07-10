@@ -1,7 +1,7 @@
 # oem device deriver
-source "drivers/oneplus/input/touchscreen/Kconfig"
-source "drivers/oneplus/input/touchscreen_himax/Kconfig"
-source "drivers/oneplus/input/fingerprint/Kconfig"
+source "techpack/billie/input/touchscreen/Kconfig"
+source "techpack/billie/input/touchscreen_himax/Kconfig"
+source "techpack/billie/input/fingerprint/Kconfig"
 
 config TOUCHPANEL_ONEPLUS
 	default n

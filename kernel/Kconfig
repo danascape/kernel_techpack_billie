@@ -6,4 +6,4 @@ config PANIC_FLUSH
 	  also contains the blk_issue_flush statistics information
 	  /proc/sysctl/blkdev_issue_flush_count
 # oem device deriver
-source "drivers/oneplus/kernel/cgroup/Kconfig"
+source "techpack/billie/kernel/cgroup/Kconfig"
